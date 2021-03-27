@@ -495,32 +495,55 @@
 1616708068 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\src\vertex.cpp
 	"Vertex.h"
 
-1616787261 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\main.cpp
+1616880549 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\main.cpp
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<Vec2d.h>
-	<Vec3d.h>
-	<Vertex.h>
-	<Figures.h>
 	<MyTimer.h>
 	<iostream>
-	<string>
 	<vector>
 	<windows.h>
-	<sstream>
 	<cmath>
+	<chrono>
 	<thread>
 	<mutex>
+	<SimulationThread.h>
+	<RenderThread.h>
 	<fstream>
-	<sstream>
-	<string>
 
 1616708068 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\src\vec2d.cpp
 	"Vec2d.h"
 
-1616708069 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\src\mytimer.cpp
+1616878545 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\src\mytimer.cpp
 	"MyTimer.h"
 
-1616708068 c:\users\татьяна\documents\индивидуальный проект\schoolproject\include\mytimer.h
+1616878160 c:\users\татьяна\documents\индивидуальный проект\schoolproject\include\mytimer.h
 	<windows.h>
+	<chrono>
+
+1616873238 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\src\renderthread.cpp
+	"RenderThread.h"
+
+1616878039 c:\users\татьяна\documents\индивидуальный проект\schoolproject\include\renderthread.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<mutex>
+	<Vec2d.h>
+	<MyTimer.h>
+	<thread>
+
+1616884191 c:\users\татьяна\documents\индивидуальный проект\schoolproject\include\simulationthread.h
+	<Vec2d.h>
+	<fstream>
+	<sstream>
+	<string>
+	<iostream>
+	<MyTimer.h>
+	<chrono>
+	<thread>
+	<SimulationThread.h>
+	<RenderThread.h>
+
+1616883796 source:c:\users\татьяна\documents\индивидуальный проект\schoolproject\src\simulationthread.cpp
+	"SimulationThread.h"
 
