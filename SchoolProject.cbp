@@ -30,6 +30,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add option="-std=c++14" />
+					<Add option="-std=c17" />
 					<Add directory="include" />
 				</Compiler>
 				<Linker>
@@ -54,19 +56,15 @@
 			<Add library="sfml-system" />
 			<Add directory="C:/C++/SFMLHandmade/SFMLCompile/lib" />
 		</Linker>
-		<Unit filename="include/Figures.h" />
-		<Unit filename="include/Matrix.h" />
 		<Unit filename="include/MyTimer.h" />
+		<Unit filename="include/RenderThread.h" />
+		<Unit filename="include/SimulationThread.h" />
 		<Unit filename="include/Vec2d.h" />
-		<Unit filename="include/Vec3d.h" />
-		<Unit filename="include/Vertex.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Figures.cpp" />
-		<Unit filename="src/Matrix.cpp" />
 		<Unit filename="src/MyTimer.cpp" />
+		<Unit filename="src/RenderThread.cpp" />
+		<Unit filename="src/SimulationThread.cpp" />
 		<Unit filename="src/Vec2d.cpp" />
-		<Unit filename="src/Vec3d.cpp" />
-		<Unit filename="src/Vertex.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
