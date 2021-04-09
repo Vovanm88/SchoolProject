@@ -102,7 +102,7 @@ double angle_Vec2d(Vec2d &f){
 	Vec2d Ox(1, 0);
 	s = sin_Vec2d(f, Ox);
 	c = cos_Vec2d(f, Ox);
-	double radAngle;
+	double radAngle=0;
 	if(s>=0 && c>=0){
 		radAngle=std::acos(c);
 	}
