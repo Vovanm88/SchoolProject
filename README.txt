@@ -24,10 +24,22 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-/
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_/
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_\
 This program allows you to simulate the free fall of the ball, its bounces, flight along a paraballic trajectory.
-Entering values ​​with both dot and comma delimiters.
+Entering values with both dot and comma delimiters.
 *****************************************************************************************************
 The config.dat file includes the following parameters:
  * Window resolution (the real one will be 20 pixels larger both in width and height), the file is represented as two numbers separated by a space.
  * Export to Excel file (csv), third number, 0 - off, 1 - on
  * Coefficient of rolling friction (fourth number, fractional, dot separator (!!!))
  * Sampling time (tick time), (fourth number, fractional, dot separator(!!!)), in one second the program calculates about 100 such ticks, for real-time display the value is 0.01, 2 times faster - 0.02, in 2 times slower - 0.005
+####################
+._________________.
+|.................|
+|.................|
+|..O..............|
+|_________________|
+********************
+._________________.
+|.................|
+|O................|
+|.................|
+|_________________|
