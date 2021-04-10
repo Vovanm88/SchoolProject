@@ -43,3 +43,4 @@ The config.dat file includes the following parameters:
 |O................|
 |.................|
 |_________________|
+Vladimir Melnikov, 2021
